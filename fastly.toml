@@ -1,5 +1,12 @@
 authors = ["<oss@fastly.com>"]
-description = "An empty starter kit project template."
+description = ""
 language = "rust"
 manifest_version = 3
-name = "Empty starter for Rust"
+name = "Purge everything under a URL path prefix"
+
+[local_server.backends.origin_0]
+      url = "https://http-me.glitch.me"
+
+[setup.backends.origin_0]
+address = "http-me.glitch.me"
+port = 443
