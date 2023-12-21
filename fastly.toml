@@ -3,6 +3,7 @@ description = ""
 language = "rust"
 manifest_version = 3
 name = "Purge everything under a URL path prefix"
+service_id = "051ku2lwutiN40142gsgr5"
 
 [local_server.backends.origin_0]
       url = "https://http-me.glitch.me"
